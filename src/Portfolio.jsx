@@ -59,7 +59,8 @@ export default function Portfolio() {
           <a href="mailto:harmeet.singh.official@outlook.com">
             <FaEnvelope size={28} />
           </a>
-          <a href="/Resume_Harmeet_Singh.pdf" download>
+          <a href="https://drive.google.com/uc?export=download&id=1eBHcdI-Fm8qOxcjUAu3c6d_RPXB8DikQ" target="_blank"
+  rel="noopener noreferrer">
             <FaFileDownload size={25} />
           </a>
         </motion.div>
@@ -81,8 +82,9 @@ export default function Portfolio() {
             Experience
           </a>
           <a
-            href="/Resume_Harmeet_Singh.pdf"
-            download
+            href="https://drive.google.com/uc?export=download&id=1eBHcdI-Fm8qOxcjUAu3c6d_RPXB8DikQ"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-indigo-400"
           >
             Download Resume
