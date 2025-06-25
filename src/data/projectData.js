@@ -1,13 +1,20 @@
 const projectsData = {
   Python: [
     {
-      title: "DukaanMate | Django Web-Based Application",
+      title: "DukaanMate | Django Web-Based Application (Final Version)",
       techStack: [
-        "Python", "Django", "Flask", "REST APIs", "SQL", "JavaScript",
+        "Python", "Django", "REST APIs", "SQL", "JavaScript",
         "HTML", "CSS", "Django REST Framework", "Bootstrap"
       ],
-      description: `DukaanMate is a web-based shop management application crafted using Python, Django, and Flask. It provides a user-friendly interface for inventory, sales, and customer management. With secure authentication, CRUD operations, and data visualizations, it empowers shopkeepers to streamline operations and make data-driven decisions.`,
+      description: `This is the final version of DukaanMate – a comprehensive shop management system built using Django. It offers an intuitive UI for inventory, sales, customer tracking, authentication, and admin control. REST APIs and Django ORM power smooth backend operations.`,
       github: "https://github.com/its-harmeet-singh/DukaanMate",
+      demo: null
+    },
+    {
+      title: "DukaanMate | Flask Prototype",
+      techStack: ["Python", "Flask", "SQLite", "Jinja2", "HTML/CSS"],
+      description: `This prototype of DukaanMate was built using Flask and SQLite. It manages product inventory and sales with basic UI rendered using Jinja2 templates. It laid the foundation for the final version built in Django.`,
+      github: null,
       demo: null
     }
   ],
@@ -27,6 +34,35 @@ const projectsData = {
         "Core Java", "JDBC", "Java", "SQL", "Desktop App Dev", "Algorithms"
       ],
       description: `A Java Desktop Application inspired by Dream11, allowing users to create dream teams and place virtual bets. Real-time data updates are integrated using JDBC, providing live stats and scores. The app showcases intuitive UI and dynamic functionality for cricket enthusiasts.`,
+      github: null,
+      demo: null
+    },
+    {
+      title: "KBC Quiz System (Spring Boot Web App)",
+      techStack: [
+        "Java", "Spring Boot", "Maven", "Thymeleaf", "HTML/CSS", "MySQL"
+      ],
+      description: `KBC Quiz System is a web-based quiz application built using Spring Boot. It simulates the format of the famous KBC game show, offering users multiple-choice questions. It uses Thymeleaf for frontend rendering and is structured with Maven for dependency management.`,
+      github: null,
+      demo: null
+    },
+    {
+      title: "SchedulEase – Appointment Scheduling System",
+      techStack: [
+        "Java", "Spring Boot", "Spring MVC", "Spring Data JPA", "REST APIs", "MySQL"
+      ],
+      description: `SchedulEase is a secure and efficient appointment scheduling system designed using Spring Boot and RESTful APIs. It supports full CRUD operations for appointments, customers, and service providers, with reporting features to analyze trends and improve user experience.`,
+      github: null,
+      demo: null
+    }
+  ],
+  JavaScript: [
+    {
+      title: "NodeJS Game Store App",
+      techStack: [
+        "JavaScript", "Node.js", "Express", "HTML", "CSS"
+      ],
+      description: `JavaScript NodeJS Project is a full-stack web application offering user authentication, a game catalog, cart functionality, and admin panel. It handles routing on the backend with Node.js and provides dynamic behavior on the frontend with JavaScript and HTML.`,
       github: null,
       demo: null
     }
