@@ -134,6 +134,7 @@ export default function Portfolio() {
             id="projects"
           >
             <p className="text-green-400">$ cat projects.js</p>
+            <p className="text-sm text-gray-400 mb-4">Click on project to get detailed description and links</p>
             {Object.entries(projectsData).map(([category, projects]) => (
               <div key={category} className="mt-6">
                 <h3 className="text-indigo-400 text-lg font-semibold mb-2">

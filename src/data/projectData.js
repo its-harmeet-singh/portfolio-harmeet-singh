@@ -7,14 +7,14 @@ const projectsData = {
         "HTML", "CSS", "Django REST Framework", "Bootstrap"
       ],
       description: `This is the final version of DukaanMate – a comprehensive shop management system built using Django. It offers an intuitive UI for inventory, sales, customer tracking, authentication, and admin control. REST APIs and Django ORM power smooth backend operations.`,
-      github: "https://github.com/its-harmeet-singh/DukaanMate",
+      github: "https://github.com/its-harmeet-singh/dukaanMate_django",
       demo: null
     },
     {
       title: "DukaanMate | Flask Prototype",
       techStack: ["Python", "Flask", "SQLite", "Jinja2", "HTML/CSS"],
       description: `This prototype of DukaanMate was built using Flask and SQLite. It manages product inventory and sales with basic UI rendered using Jinja2 templates. It laid the foundation for the final version built in Django.`,
-      github: null,
+      github: "https://github.com/its-harmeet-singh/DukaanMate",
       demo: null
     }
   ],
@@ -43,7 +43,7 @@ const projectsData = {
         "Java", "Spring Boot", "Maven", "Thymeleaf", "HTML/CSS", "MySQL"
       ],
       description: `KBC Quiz System is a web-based quiz application built using Spring Boot. It simulates the format of the famous KBC game show, offering users multiple-choice questions. It uses Thymeleaf for frontend rendering and is structured with Maven for dependency management.`,
-      github: null,
+      github: "https://github.com/its-harmeet-singh/Desktop-Quiz",
       demo: null
     },
     {
@@ -63,7 +63,7 @@ const projectsData = {
         "JavaScript", "Node.js", "Express", "HTML", "CSS"
       ],
       description: `JavaScript NodeJS Project is a full-stack web application offering user authentication, a game catalog, cart functionality, and admin panel. It handles routing on the backend with Node.js and provides dynamic behavior on the frontend with JavaScript and HTML.`,
-      github: null,
+      github: "https://github.com/its-harmeet-singh/JavaScript_NodeJS",
       demo: null
     }
   ],
